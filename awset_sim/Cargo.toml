@@ -1,0 +1,13 @@
+[package]
+authors = ["Pedro"]
+edition = "2018"
+name = "awset_sim"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+delta_crdt = {path = "../delta_crdt"}
+rand = "0.8.4"
+rand_distr = "0.4.1"
+zipf = "7.0.0"
